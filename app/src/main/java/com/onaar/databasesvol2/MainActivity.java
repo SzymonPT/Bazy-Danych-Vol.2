@@ -12,8 +12,12 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        KonflliktyDataBase konflliktyDataBase;
+
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+        konflliktyDataBase = KonflliktyDataBase.zwrocInstancjeBazyDanych(MainActivity.this);
+        konflliktyDataBase.zwrocKonfliktyDao().wstawKonfliktDoBazy(new Baza("I Wojna Czeczeńska",1994,1996, "Rosja i Republika Czeczeńska", "Zwycięstwo Czeczeni",  "Zabici:80 000 - 160 000, Ranni: 120 000+, Zaginieni: 5000"));
     }
 }

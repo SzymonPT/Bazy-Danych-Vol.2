@@ -19,8 +19,8 @@ public class Baza {
     @ColumnInfo(name = "DWM_count")
     private String DWM;
 
-    public Baza(int id, String name, int start_date, int end_date, String countries, String winning_side, String DWM) {
-        this.id = id;
+    public Baza(String name, int start_date, int end_date, String countries, String winning_side, String DWM) {
+        id = 0;
         this.name = name;
         this.start_date = start_date;
         this.end_date = end_date;
