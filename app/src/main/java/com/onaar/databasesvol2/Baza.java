@@ -29,6 +29,19 @@ public class Baza {
         this.DWM = DWM;
     }
 
+    @Override
+    public String toString() {
+        return "Baza{" +
+                "id=" + id +
+                ", nazwa='" + name + '\n' +
+                ", start_date='" + start_date + '\n'+
+                ", end_date=" + end_date + '\n'+
+                ", countries=" + countries + '\n'+
+                ", winning_side=" + winning_side + '\n'+
+                ", DWM=" + DWM +
+                '}';
+    }
+
     public int getId() {
         return id;
     }

@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         KonflliktyDataBase konflliktyDataBase;
 
+        Button button, button2;
+        EditText name, start_date, end_date, countries,;
+
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
