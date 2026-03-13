@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/Nam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BazaDanych!"/>
@@ -25,7 +26,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Nazwa" />
+        android:hint="Nazwa" />
 
     <EditText
         android:id="@+id/Rok_Rozp"
@@ -33,7 +34,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:text="Rok Rozpoczęcia" />
+        android:hint="Rok Rozpoczęcia" />
 
     <EditText
         android:id="@+id/Rok_Zak"
@@ -41,7 +42,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:text="Rok Zakończenia" />
+        android:hint="Rok Zakończenia" />
 
     <EditText
         android:id="@+id/Kraje_Biorące_Udział"
@@ -49,7 +50,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Kraje Biorące Udział" />
+        android:hint="Kraje Biorące Udział" />
 
     <EditText
         android:id="@+id/winner"
@@ -57,7 +58,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Kraje Zwycięskie" />
+        android:hint="Kraje Zwycięskie" />
 
     <EditText
         android:id="@+id/DWM"
@@ -65,7 +66,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Zabici, Ranni, Zaginieni" />
+        android:hint="Zabici, Ranni, Zaginieni" />
 
 
     <Button

@@ -18,6 +18,6 @@ public interface BazaDao {
     public void usunZBazy(Baza baza);
     @Update
     public void zaktualizuj(Baza baza);
-    @Query("Select *  From `current_wars_table`")
+    @Query("SELECT *  FROM current_wars_table")
     List<Baza> zwrocWszystkieKonfliktyZBazy();
 }
